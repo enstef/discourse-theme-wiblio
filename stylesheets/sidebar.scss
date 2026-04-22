@@ -1,0 +1,22 @@
+:root {
+  --d-sidebar-row-horizontal-padding: var(--space-2);
+  --d-sidebar-vertical-gap: 4px;
+}
+
+.sidebar-container {
+  border-right: 0 !important;
+}
+
+.sidebar-section {
+  border-color: var(--primary);
+}
+
+.sidebar-section-link {
+  transition: var(--d-button-transition);
+}
+
+.sidebar-footer-container {
+  &::before {
+    background: transparent !important;
+  }
+}

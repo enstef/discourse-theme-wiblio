@@ -1,0 +1,20 @@
+.d-header {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.header-sidebar-toggle {
+  .btn-sidebar-toggle {
+    &:hover {
+      background-color: var(--w-hover) !important;
+
+      svg {
+        color: var(--secondary) !important;
+      }
+    }
+
+    svg {
+      color: inherit !important;
+    }
+  }
+}

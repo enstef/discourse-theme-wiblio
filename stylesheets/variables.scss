@@ -1,21 +1,5 @@
 :root {
-  --w-border-radius-full: 999px;
+  // might be useful, don't think there is a preexisting var
+  // --w-border-radius-full: 999px;
   --d-border-radius: 16px;
-  --d-input-border-radius: 8px;
-  --d-button-border-radius: 8px;
-
-  // Sidebar
-  --d-sidebar-row-horizontal-padding: var(--space-2);
-  --d-sidebar-vertical-gap: 4px;
-
-  // Main
-  --main-outlet-padding-x: var(--space-5);
-
-  // Categories
-  --d-category-border-accent-width: 0;
-  --d-category-border-box-width: 0;
-
-  // Topics
-  --d-table-border-top-height: 0;
-  --d-topic-list-likes-views-posts-width: fit-content;
 }
