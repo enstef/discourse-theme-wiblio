@@ -1,16 +1,30 @@
 {
   "name": "wiblio",
   "authors": "enstef",
-  "about_url": "TODO: Put your theme's public repo or Meta topic URL here",
+  "about_url": "https://github.com/enstef/discourse-theme-wiblio",
   "license_url": "TODO: Put your theme's LICENSE URL here",
   "learn_more": "TODO",
   "theme_version": "0.0.1",
   "minimum_discourse_version": null,
   "maximum_discourse_version": null,
   "assets": {
+    "rhomb": "assets/rhomb.svg"
   },
   "modifiers": {
   },
-  "color_schemes": {
+   "color_schemes": {
+    "wiblio Light": {
+      "primary": "000000",
+      "secondary": "ffffff",
+      "tertiary": "6ecc92",
+      "hover": "d9ffe7",
+      "selected": "bfffd7",
+      "love": "e69bae",
+      "header_primary": "000000"
+    }
+  },
+  "screenshots": [],
+  "theme_site_settings": {
   }
 }
+
