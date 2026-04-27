@@ -5,6 +5,9 @@
 // Design tokens - secondary
 @use "design-tokens/colors.secondary";
 
+// Base
+@use "base";
+
 // Components
 @use "header";
 @use "sidebar";
@@ -12,10 +15,6 @@
 @use "topics";
 @use "button";
 @use "input";
-
-html {
-  background-color: var(--w-background);
-}
 
 :root {
   --main-outlet-padding-x: var(--space-5);
