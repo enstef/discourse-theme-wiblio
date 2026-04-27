@@ -6,7 +6,7 @@ For more information, please see: **url to meta topic**
 
 ## Developing locally
 
-To develop the theme on a local instance of discourse, you need the `discourse_theme` gem. Run the following commans in the root folder of the theme:
+To develop the theme on a local instance of discourse, you need the `discourse_theme` gem. Run the following commands in the root folder of the theme:
 
 ```sh
 gem install discourse_theme
