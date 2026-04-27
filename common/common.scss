@@ -1,4 +1,11 @@
-@use "variables";
+// Design tokens - primary
+@use "design-tokens/colors.primary" as primary-colors;
+@use "design-tokens/border-radius.primary";
+
+// Design tokens - secondary
+@use "design-tokens/colors.secondary";
+
+// Components
 @use "header";
 @use "sidebar";
 @use "categories";
