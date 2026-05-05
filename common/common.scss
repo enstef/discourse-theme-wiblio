@@ -11,7 +11,9 @@
 );
 
 // Components
-@use "header";
+@use "header" with (
+  $rhomb: $rhomb
+);
 @use "sidebar";
 @use "categories";
 @use "topics";
