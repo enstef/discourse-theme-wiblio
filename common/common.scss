@@ -11,10 +11,13 @@
 // Components
 @use "header";
 @use "sidebar";
-@use "categories";
-@use "topics";
 @use "button";
 @use "input";
+@use "categories";
+@use "category-badges";
+@use "topic-cards";
+@use "topic-list-fixes";
+@use "topic";
 
 :root {
   --main-outlet-padding-x: var(--space-5);
