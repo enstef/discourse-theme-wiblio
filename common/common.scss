@@ -9,6 +9,7 @@
 @use "base";
 
 // Components
+@use "discourse";
 @use "header";
 @use "sidebar";
 @use "button";
@@ -18,6 +19,8 @@
 @use "topic-cards";
 @use "topic-list-fixes";
 @use "topic";
+@use "skip-link";
+@use "user-pill";
 
 :root {
   --main-outlet-padding-x: var(--space-5);
