@@ -9,12 +9,14 @@
 @use "base";
 
 // Components
+@use "discourse";
 @use "header";
 @use "sidebar";
 @use "categories";
 @use "topics";
 @use "button";
 @use "input";
+@use "skip-link";
 @use "user-pill";
 
 :root {
