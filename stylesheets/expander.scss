@@ -1,15 +1,17 @@
-:root {
-  --zlb-expander-user-list-background-color: var(--primary);
-  --zlb-expander-user-list-background-color-rgb: 230, 230, 230;
-}
-
 .zlb-community-expander--user-list {
+  --zlb-expander-user-list-background-color: var(--primary-low);
+  --zlb-expander-user-list-background-color-rgb: 230, 230, 230;
+
   &[open] {
-    --zlb-expander-padding: var(--space-6) var(--space-4) var(--space-4);
+    --zlb-expander-padding: 0 var(--space-4) var(--space-4);
+
+    .zlb-community-expander__content > :first-child {
+      padding-block-start: var(--space-6);
+    }
   }
 
   .zlb-community-expander__content {
-    max-block-size: 27rem;
+    max-block-size: 50vh;
     overflow-y: auto;
     background:
         /* Shadow Cover TOP */
