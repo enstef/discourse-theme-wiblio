@@ -8,11 +8,11 @@
   "minimum_discourse_version": null,
   "maximum_discourse_version": null,
   "assets": {
+    "chat": "assets/chat.svg",
     "rhomb": "assets/rhomb.svg"
   },
-  "modifiers": {
-  },
-   "color_schemes": {
+  "modifiers": {},
+  "color_schemes": {
     "wiblio Light": {
       "primary": "000000",
       "secondary": "ffffff",
@@ -24,7 +24,5 @@
     }
   },
   "screenshots": [],
-  "theme_site_settings": {
-  }
+  "theme_site_settings": {}
 }
-
