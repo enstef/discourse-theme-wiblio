@@ -38,17 +38,19 @@ $chat-svg: "" !default;
   gap: var(--space-1);
   border-radius: var(--space-4);
   background-color: var(--primary-low);
+  margin-bottom: 0.625rem;
 
   &::after {
     content: "";
     position: absolute;
     top: 100%;
-    right: var(--space-4);
-    margin-inline-start: -100%;
+    left: var(--space-4);
+    margin-inline-end: -100%;
     background-color: inherit;
     inline-size: 0.875rem; // 14px
     block-size: 0.6875rem; // 11px
     mask-image: url($chat-svg);
+    transform: scaleX(-1);
   }
 
   &,
@@ -60,6 +62,14 @@ $chat-svg: "" !default;
     align-items: end;
     text-align: right;
     background-color: var(--w-brand-primary-500);
+
+    &::after {
+      left: auto;
+      right: var(--space-4);
+      margin-inline-start: -100%;
+      margin-inline-end: 0;
+      transform: none;
+    }
   }
 }
 
