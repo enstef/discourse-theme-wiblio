@@ -1,3 +1,5 @@
+@use "lib/viewport";
+
 :root {
   --d-topic-list-likes-views-posts-width: fit-content;
   --d-table-border-top-height: 0;
@@ -39,8 +41,16 @@
 
   .topic-list-data {
     height: fit-content;
-    width: fit-content;
     padding: var(--space-1) !important;
+    max-width: none;
+
+    @include viewport.from(md) {
+      width: fit-content;
+    }
+
+    &:first-child:last-child {
+      grid-column: 1 / -1;
+    }
 
     a {
       padding: 0 !important;
