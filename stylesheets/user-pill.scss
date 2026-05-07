@@ -1,0 +1,24 @@
+:root {
+  --zlb-user-pill-background-color: var(--w-brand-primary-200);
+  --zlb-user-pill-border-color: var(--w-brand-primary-500);
+  --zlb-user-pill-hover-background-color: var(--w-brand-primary-200);
+}
+
+.zlb-community-user-pill {
+  padding-block: var(--space-1);
+
+  .avatar {
+    flex-basis: 32px;
+    aspect-ratio: 1/1;
+    height: auto;
+  }
+}
+
+.zlb-community-user-pill__details {
+  gap: var(--space-1);
+}
+
+.zlb-community-user-pill__name,
+.zlb-community-user-pill__username {
+  line-height: 1.1;
+}
