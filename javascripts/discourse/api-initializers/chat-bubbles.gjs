@@ -74,12 +74,14 @@ const updateGroupChatClass = () => {
 
   document.body.classList.toggle(
     "has-group-chat",
-    !icon.classList.contains("--avatar"),
+    !icon.classList.contains("--avatar")
   );
 };
 
 const updateChatMessageWidths = () => {
-  const maxWidth = document.documentElement.classList.contains("has-drawer-chat")
+  const maxWidth = document.documentElement.classList.contains(
+    "has-drawer-chat"
+  )
     ? 300
     : window.innerWidth < 600
       ? 300
@@ -131,7 +133,7 @@ export default {
 
       const observer = new MutationObserver((mutations) => {
         const shouldUpdate = mutations.some((mutation) =>
-          Array.from(mutation.addedNodes).some(containsRelevantChatNode),
+          Array.from(mutation.addedNodes).some(containsRelevantChatNode)
         );
 
         if (shouldUpdate) {
