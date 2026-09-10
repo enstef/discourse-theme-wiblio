@@ -1,0 +1,7 @@
+.toolbar-popup-menu-options {
+  button[data-name="local-dates"],
+  button[data-name="quote"],
+  button[data-name="toggle-wrap"] {
+    display: none !important;
+  }
+}
