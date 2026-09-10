@@ -1,0 +1,15 @@
+.composer-action-create-topic {
+  .category-chooser {
+    .category-row {
+      .category-status {
+        .badge-category__wrapper {
+          display: none;
+        }
+
+        .badge-category__wrapper:last-of-type {
+          display: flex;
+        }
+      }
+    }
+  }
+}
