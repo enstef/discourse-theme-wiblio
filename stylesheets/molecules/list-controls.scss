@@ -52,7 +52,8 @@
     transition: var(--w-transition);
   }
 
-  #create-topic {
+  #create-topic,
+  #zlb-topic-type-selection-new {
     border-radius: var(--w-button-border-radius-large);
     background-color: var(--d-button-default-bg-color);
 
